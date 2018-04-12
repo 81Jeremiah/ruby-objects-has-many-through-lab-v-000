@@ -7,4 +7,7 @@ class Appointment
      @patients = []
    end
 
+   def patient
+
+   end
 end
