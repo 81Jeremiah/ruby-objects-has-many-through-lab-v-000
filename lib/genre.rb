@@ -1,3 +1,4 @@
+require 'pry'
 class Genre
   attr_accessor :name, :songs
 
@@ -12,5 +13,6 @@ class Genre
 
   def artists
     songs.collect {|song| song.artist}
+    binding.pry
   end
 end
