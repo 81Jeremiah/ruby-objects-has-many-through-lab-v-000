@@ -13,6 +13,6 @@ class Genre
 
   def artists
     songs.collect {|song| song.artist}
-    binding.pry
+    #binding.pry
   end
 end
